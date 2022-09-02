@@ -9,10 +9,10 @@ export function App() {
   return (
     <>
       <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
+        <a class="logo" href="https://vitejs.dev" target="_blank" rel="noreferrer">
           <PreactLogo />
         </a>
-        <a href="https://preactjs.com" target="_blank" rel="noreferrer">
+        <a class="logo preact" href="https://preactjs.com" target="_blank" rel="noreferrer">
           <ViteLogo />
         </a>
       </div>
