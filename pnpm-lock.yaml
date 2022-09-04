@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@preact/preset-vite': ^2.3.0
+  '@preact/preset-vite': ^2.3.1
   '@testing-library/preact': ^3.2.2
   '@typescript-eslint/eslint-plugin': ^5.36.1
   '@typescript-eslint/parser': ^5.36.1
@@ -22,7 +22,7 @@ dependencies:
   preact: 10.10.6
 
 devDependencies:
-  '@preact/preset-vite': 2.3.0_wibdudaz52xr4lhcmpvnys3x3u
+  '@preact/preset-vite': 2.3.1_wibdudaz52xr4lhcmpvnys3x3u
   '@testing-library/preact': 3.2.2_preact@10.10.6
   '@typescript-eslint/eslint-plugin': 5.36.1_lbwfnm54o3pmr3ypeqp3btnera
   '@typescript-eslint/parser': 5.36.1_yqf6kl63nyoq5megxukfnom5rm
@@ -444,8 +444,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/preset-vite/2.3.0_wibdudaz52xr4lhcmpvnys3x3u:
-    resolution: {integrity: sha512-0kOuz7wdrQLqrPlyI/Ypw9IWDF2++GGcOHMRBYO5T2w2+dheelaBH+XrIN/okqdsGIflzFIFNyIGubo5BC8wbQ==}
+  /@preact/preset-vite/2.3.1_wibdudaz52xr4lhcmpvnys3x3u:
+    resolution: {integrity: sha512-QG9w1VIumLoqfH9FPbG8TgQMG2cNhIPtAiKQWPPZ/XuiqPBpnEksuHhLozrl9oj97m4SFbLvXfxKSGX7Ovysgg==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x
