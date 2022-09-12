@@ -17,7 +17,7 @@ export default defineConfig(({ mode }) => ({
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-preact-js-typescript-template/',
   server: { port },
   test: {
-    environment: 'happy-dom',
+    environment: 'jsdom',
     mockReset: true
   },
 }))
