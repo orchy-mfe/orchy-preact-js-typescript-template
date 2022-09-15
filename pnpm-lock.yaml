@@ -14,7 +14,7 @@ specifiers:
   preact: ^10.11.0
   rollup-plugin-visualizer: ^5.8.1
   typescript: ^4.8.3
-  vite: ^3.1.0
+  vite: ^3.1.1
   vite-plugin-qiankun: ^1.0.15
   vite-plugin-svgr: ^2.2.1
   vitest: ^0.23.2
@@ -23,7 +23,7 @@ dependencies:
   preact: 10.11.0
 
 devDependencies:
-  '@preact/preset-vite': 2.4.0_736awrfofydmu3s7wlf4nhzwp4
+  '@preact/preset-vite': 2.4.0_qhoaxjlbmkh2si6itfumabtcf4
   '@testing-library/preact': 3.2.2_preact@10.11.0
   '@typescript-eslint/eslint-plugin': 5.37.0_22c5fnooleyfkzrkkgdmel5kmi
   '@typescript-eslint/parser': 5.37.0_irgkl5vooow2ydyo6aokmferha
@@ -35,9 +35,9 @@ devDependencies:
   jsdom: 20.0.0
   rollup-plugin-visualizer: 5.8.1
   typescript: 4.8.3
-  vite: 3.1.0
-  vite-plugin-qiankun: 1.0.15_kv24itni63m4glw5d4ho3vjlde
-  vite-plugin-svgr: 2.2.1_vite@3.1.0
+  vite: 3.1.1
+  vite-plugin-qiankun: 1.0.15_q56y7zg3nl6glwhupndynqapaq
+  vite-plugin-svgr: 2.2.1_vite@3.1.1
   vitest: 0.23.2_e3y3tk5wocdgktiwrgnxpnd3nq
 
 packages:
@@ -446,7 +446,7 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preact/preset-vite/2.4.0_736awrfofydmu3s7wlf4nhzwp4:
+  /@preact/preset-vite/2.4.0_qhoaxjlbmkh2si6itfumabtcf4:
     resolution: {integrity: sha512-EiUMHuiCThuTuK+eH2r5uDg+CJbbt4aWJGePuszrHuXUpRv6WAeO4S+/DTJsEHtPtGmPRR3cLQ68N5097eOSRA==}
     peerDependencies:
       '@babel/core': 7.x
@@ -455,13 +455,13 @@ packages:
       '@babel/core': 7.18.13
       '@babel/plugin-transform-react-jsx': 7.18.10_@babel+core@7.18.13
       '@babel/plugin-transform-react-jsx-development': 7.18.6_@babel+core@7.18.13
-      '@prefresh/vite': 2.2.8_preact@10.11.0+vite@3.1.0
+      '@prefresh/vite': 2.2.8_preact@10.11.0+vite@3.1.1
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2_@babel+core@7.18.13
       debug: 4.3.4
       kolorist: 1.5.1
       resolve: 1.22.1
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -483,7 +483,7 @@ packages:
     resolution: {integrity: sha512-Mb9abhJTOV4yCfkXrMrcgFiFT7MfNOw8sDa+XyZBdq/Ai2p4Zyxqsb3EgHLOEdHpMj6J9aiZ54W8H6FTam1u+A==}
     dev: true
 
-  /@prefresh/vite/2.2.8_preact@10.11.0+vite@3.1.0:
+  /@prefresh/vite/2.2.8_preact@10.11.0+vite@3.1.1:
     resolution: {integrity: sha512-yGGa+PKPYPTzMlxgQ8aBgxw9K69I8X4iQ0E6KOcIvls96WKqKLLOYZW9SUgCve446jpUXvc9udviPBZjCeZIIQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -495,7 +495,7 @@ packages:
       '@prefresh/utils': 1.1.3
       '@rollup/pluginutils': 4.2.1
       preact: 10.11.0
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3396,7 +3396,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: true
 
-  /vite-plugin-qiankun/1.0.15_kv24itni63m4glw5d4ho3vjlde:
+  /vite-plugin-qiankun/1.0.15_q56y7zg3nl6glwhupndynqapaq:
     resolution: {integrity: sha512-0QB0Wr8Eu/LGcuJAfuNXDb7BAFDszo3GCxq4bzgXdSFAlK425u1/UGMxaDEBVA1uPFrLsZPzig83Ufdfl6J45A==}
     peerDependencies:
       typescript: '>=4'
@@ -3404,23 +3404,23 @@ packages:
     dependencies:
       cheerio: 1.0.0-rc.12
       typescript: 4.8.3
-      vite: 3.1.0
+      vite: 3.1.1
     dev: true
 
-  /vite-plugin-svgr/2.2.1_vite@3.1.0:
+  /vite-plugin-svgr/2.2.1_vite@3.1.1:
     resolution: {integrity: sha512-+EqwahbwjETJH/ssA/66dNYyKN1cO0AStq96MuXmq5maU7AePBMf2lDKfQna49tJZAjtRz+R899BWCsUUP45Fg==}
     peerDependencies:
       vite: ^2.6.0 || 3
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@svgr/core': 6.3.1
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/3.1.0:
-    resolution: {integrity: sha512-YBg3dUicDpDWFCGttmvMbVyS9ydjntwEjwXRj2KBFwSB8SxmGcudo1yb8FW5+M/G86aS8x828ujnzUVdsLjs9g==}
+  /vite/3.1.1:
+    resolution: {integrity: sha512-hgxQWev/AL7nWYrqByYo8nfcH9n97v6oFsta9+JX8h6cEkni7nHKP2kJleNYV2kcGhE8jsbaY1aStwPZXzPbgA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -3480,7 +3480,7 @@ packages:
       tinybench: 2.1.5
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.1.0
+      vite: 3.1.1
     transitivePeerDependencies:
       - less
       - sass
