@@ -6,7 +6,7 @@ import './index.css'
 
 const retrieveContainer = (props: QiankunProps) => (props.container ?? document).querySelector('#app') as HTMLElement
 
-const renderApp = (props = {}) => {
+const renderApp = (props: QiankunProps = {}) => {
     render(
         <BrowserRouter basename={props.baseUrl}>
             <App />, 
@@ -16,13 +16,13 @@ const renderApp = (props = {}) => {
 }
 
 renderWithQiankun({
-    mount(props) {
+    mount(props: QiankunProps) {
         renderApp(props)
     },
     bootstrap() {
         console.log('bootstrap')
     },
-    unmount(props) {
+    unmount(props: QiankunProps) {
         render(null, retrieveContainer(props))
     },
     update() {
