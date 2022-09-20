@@ -4,11 +4,11 @@ import {BrowserRouter} from 'react-router-dom'
 import {App} from './app'
 import './index.css'
 
-const retrieveContainer = (props: QiankunProps) => (props.container ?? document).querySelector('#app') as HTMLElement
+const retrieveContainer = (props?: QiankunProps) => (props?.container ?? document).querySelector('#app') as HTMLElement
 
-const renderApp = (props: QiankunProps = {}) => {
+const renderApp = (props?: QiankunProps) => {
     render(
-        <BrowserRouter basename={props.baseUrl}>
+        <BrowserRouter basename={props?.baseUrl}>
             <App />, 
         </BrowserRouter>,
         retrieveContainer(props)
@@ -31,5 +31,5 @@ renderWithQiankun({
 })
 
 if (!qiankunWindow.__POWERED_BY_QIANKUN__) {
-    renderApp({})
+    renderApp()
 }
