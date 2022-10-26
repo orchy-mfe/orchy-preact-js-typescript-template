@@ -10,7 +10,7 @@ specifiers:
   eslint-config-preact: ^1.3.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
-  happy-dom: ^7.6.4
+  happy-dom: ^7.6.6
   jsdom: ^20.0.1
   preact: ^10.11.2
   react-router-dom: ^6.4.2
@@ -37,14 +37,14 @@ devDependencies:
   eslint-config-preact: 1.3.0_fy74h4y2g2kkrxhvsefhiowl74
   eslint-config-prettier: 8.5.0_eslint@8.26.0
   eslint-plugin-prettier: 4.2.1_aniwkeyvlpmwkidetuytnokvcm
-  happy-dom: 7.6.4
+  happy-dom: 7.6.6
   jsdom: 20.0.1
   rollup-plugin-visualizer: 5.8.3
   typescript: 4.8.4
   vite: 3.1.8
   vite-plugin-qiankun: 1.0.15_o3sppntgta7qijzxyjjxfsiapy
   vite-plugin-svgr: 2.2.2_555j7yvyj47olysrn72ef7hyza
-  vitest: 0.24.3_xpbfyfydq2wy6akikxeyd5h5rm
+  vitest: 0.24.3_ye6oshpj4ty7tenphfu353iv6i
 
 packages:
 
@@ -2197,8 +2197,8 @@ packages:
     resolution: {integrity: sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==}
     dev: true
 
-  /happy-dom/7.6.4:
-    resolution: {integrity: sha512-3EE2md6O1gucEFz9zOAzsv7QBMwl0AVlixvzg8b9QxeMCUFHRrvuH6dhicWdaHMvv1JB0vsxTsmAOplTK40S5g==}
+  /happy-dom/7.6.6:
+    resolution: {integrity: sha512-28NxRiHXjzhr+BGciLNUoQW4OaBnQPRT/LPYLufh0Fj3Iwh1j9qJaozjBm/Uqdj5Ps4cukevQ7ERieA6Ddwf1g==}
     dependencies:
       css.escape: 1.5.1
       he: 1.2.0
@@ -3544,7 +3544,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.24.3_xpbfyfydq2wy6akikxeyd5h5rm:
+  /vitest/0.24.3_ye6oshpj4ty7tenphfu353iv6i:
     resolution: {integrity: sha512-aM0auuPPgMSstWvr851hB74g/LKaKBzSxcG3da7ejfZbx08Y21JpZmbmDYrMTCGhVZKqTGwzcnLMwyfz2WzkhQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -3571,7 +3571,7 @@ packages:
       '@types/node': 18.7.14
       chai: 4.3.6
       debug: 4.3.4
-      happy-dom: 7.6.4
+      happy-dom: 7.6.6
       jsdom: 20.0.1
       local-pkg: 0.4.2
       strip-literal: 0.4.2
