@@ -11,7 +11,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
   happy-dom: ^7.6.6
-  jsdom: ^20.0.1
+  jsdom: ^20.0.2
   preact: ^10.11.2
   react-router-dom: ^6.4.2
   rollup-plugin-visualizer: ^5.8.3
@@ -38,13 +38,13 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.26.0
   eslint-plugin-prettier: 4.2.1_aniwkeyvlpmwkidetuytnokvcm
   happy-dom: 7.6.6
-  jsdom: 20.0.1
+  jsdom: 20.0.2
   rollup-plugin-visualizer: 5.8.3
   typescript: 4.8.4
   vite: 3.2.1
   vite-plugin-qiankun: 1.0.15_qpqpptm6doui2bjlmcwwgpgdpe
   vite-plugin-svgr: 2.2.2_jgicvnznvbxrcrzj72sk6c3rpu
-  vitest: 0.24.3_ye6oshpj4ty7tenphfu353iv6i
+  vitest: 0.24.3_pnsgaawvkksze6pp4rgdo77iuu
 
 packages:
 
@@ -2501,8 +2501,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom/20.0.1:
-    resolution: {integrity: sha512-pksjj7Rqoa+wdpkKcLzQRHhJCEE42qQhl/xLMUKHgoSejaKOdaXEAnqs6uDNwMl/fciHTzKeR8Wm8cw7N+g98A==}
+  /jsdom/20.0.2:
+    resolution: {integrity: sha512-AHWa+QO/cgRg4N+DsmHg1Y7xnz+8KU3EflM0LVDTdmrYOc1WWTSkOjtpUveQH+1Bqd5rtcVnb/DuxV/UjDO4rA==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -3547,7 +3547,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.24.3_ye6oshpj4ty7tenphfu353iv6i:
+  /vitest/0.24.3_pnsgaawvkksze6pp4rgdo77iuu:
     resolution: {integrity: sha512-aM0auuPPgMSstWvr851hB74g/LKaKBzSxcG3da7ejfZbx08Y21JpZmbmDYrMTCGhVZKqTGwzcnLMwyfz2WzkhQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -3575,7 +3575,7 @@ packages:
       chai: 4.3.6
       debug: 4.3.4
       happy-dom: 7.6.6
-      jsdom: 20.0.1
+      jsdom: 20.0.2
       local-pkg: 0.4.2
       strip-literal: 0.4.2
       tinybench: 2.3.0
