@@ -3,7 +3,7 @@ import {defineConfig} from 'vite'
 import preact from '@preact/preset-vite'
 import svgr from 'vite-plugin-svgr'
 import {visualizer} from 'rollup-plugin-visualizer'
-import qiankun from 'vite-plugin-qiankun'
+import cssInjectedByJsPlugin from 'vite-plugin-css-injected-by-js'
 
 const port = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000
 
@@ -11,7 +11,7 @@ export default defineConfig(({mode}) => ({
   plugins: [
     svgr(),
     preact(),
-    qiankun('orchy-preact-js-typescript-template', {useDevMode: true}),
+    cssInjectedByJsPlugin(),
     visualizer()
   ],
   base: mode === 'development' ? `http://localhost:${port}/` : '/orchy-preact-js-typescript-template/',
