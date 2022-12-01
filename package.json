@@ -17,7 +17,7 @@
     "rxjs": "^7.5.7"
   },
   "devDependencies": {
-    "@orchy-mfe/models": "^0.2.0",
+    "@orchy-mfe/models": "^0.3.0",
     "@preact/preset-vite": "^2.4.0",
     "@testing-library/preact": "^3.2.2",
     "@typescript-eslint/eslint-plugin": "^5.45.0",
