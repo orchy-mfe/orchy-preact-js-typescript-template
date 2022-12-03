@@ -14,7 +14,7 @@
     "@orchy-mfe/spa-adapter": "^0.1.1",
     "preact": "^10.11.3",
     "react-router-dom": "^6.4.4",
-    "rxjs": "^7.5.7"
+    "rxjs": "^7.6.0"
   },
   "devDependencies": {
     "@orchy-mfe/models": "^0.3.0",
