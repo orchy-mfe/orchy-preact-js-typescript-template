@@ -4,7 +4,7 @@ specifiers:
   '@orchy-mfe/models': ^0.3.0
   '@orchy-mfe/spa-adapter': ^0.1.1
   '@preact/preset-vite': ^2.5.0
-  '@testing-library/preact': ^3.2.2
+  '@testing-library/preact': ^3.2.3
   '@typescript-eslint/eslint-plugin': ^5.48.2
   '@typescript-eslint/parser': ^5.48.2
   eslint: ^8.32.0
@@ -32,7 +32,7 @@ dependencies:
 devDependencies:
   '@orchy-mfe/models': 0.3.0
   '@preact/preset-vite': 2.5.0_ugodibpwwd5ggtw7otptjujhre
-  '@testing-library/preact': 3.2.2_preact@10.11.3
+  '@testing-library/preact': 3.2.3_preact@10.11.3
   '@typescript-eslint/eslint-plugin': 5.48.2_caon6io6stgpr7lz2rtbhekxqy
   '@typescript-eslint/parser': 5.48.2_7uibuqfxkfaozanbtbziikiqje
   eslint: 8.32.0
@@ -921,8 +921,8 @@ packages:
       pretty-format: 27.5.1
     dev: true
 
-  /@testing-library/preact/3.2.2_preact@10.11.3:
-    resolution: {integrity: sha512-mMPEp/9TOOqf3QqDHY02ieGFfRbi8fAxZvRifn+vOzrdNcCR1zchwPA6BvqXG3wAweRan4QJioYgEc1cePeC3g==}
+  /@testing-library/preact/3.2.3_preact@10.11.3:
+    resolution: {integrity: sha512-y6Kklp1XK3f1X2fWCbujmJyzkf+1BgLYXNgAx21j9+D4CoqMTz5qC4SQufb1L6q/jxLGACzrQ90ewVOTBvHOfg==}
     engines: {node: '>= 12'}
     peerDependencies:
       preact: '>=10 || ^10.0.0-alpha.0 || ^10.0.0-beta.0'
