@@ -19,7 +19,7 @@
   "devDependencies": {
     "@orchy-mfe/models": "^0.3.0",
     "@preact/preset-vite": "^2.5.0",
-    "@testing-library/preact": "^3.2.2",
+    "@testing-library/preact": "^3.2.3",
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
     "eslint": "^8.32.0",
