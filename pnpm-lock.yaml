@@ -12,7 +12,7 @@ specifiers:
   eslint-config-prettier: ^8.6.0
   eslint-plugin-prettier: ^4.2.1
   happy-dom: ^8.1.5
-  jsdom: ^21.0.0
+  jsdom: ^21.1.0
   preact: ^10.11.3
   react-router-dom: ^6.7.0
   rollup-plugin-visualizer: ^5.9.0
@@ -40,13 +40,13 @@ devDependencies:
   eslint-config-prettier: 8.6.0_eslint@8.32.0
   eslint-plugin-prettier: 4.2.1_bwiznj6mum4nx2xtr6b6ecukoq
   happy-dom: 8.1.5
-  jsdom: 21.0.0
+  jsdom: 21.1.0
   rollup-plugin-visualizer: 5.9.0
   typescript: 4.9.4
   vite: 4.0.4
   vite-plugin-css-injected-by-js: 2.4.0_vite@4.0.4
   vite-plugin-svgr: 2.4.0_vite@4.0.4
-  vitest: 0.27.3_dznddftikaa4ywjqy3akm3bqna
+  vitest: 0.27.3_q4gzpgi7jzwka6d6ygik5s3nve
 
 packages:
 
@@ -2408,8 +2408,8 @@ packages:
       argparse: 2.0.1
     dev: true
 
-  /jsdom/21.0.0:
-    resolution: {integrity: sha512-AIw+3ZakSUtDYvhwPwWHiZsUi3zHugpMEKlNPaurviseYoBqo0zBd3zqoUi3LPCNtPFlEP8FiW9MqCZdjb2IYA==}
+  /jsdom/21.1.0:
+    resolution: {integrity: sha512-m0lzlP7qOtthD918nenK3hdItSd2I+V3W9IrBcB36sqDwG+KnUs66IF5GY7laGWUnlM9vTsD0W1QwSEBYWWcJg==}
     engines: {node: '>=14'}
     peerDependencies:
       canvas: ^2.5.0
@@ -3489,7 +3489,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.27.3_dznddftikaa4ywjqy3akm3bqna:
+  /vitest/0.27.3_q4gzpgi7jzwka6d6ygik5s3nve:
     resolution: {integrity: sha512-Ld3UVgRVhJUtqvQ3dW89GxiApFAgBsWJZBCWzK+gA3w2yG68csXlGZZ4WDJURf+8ecNfgrScga6xY+8YSOpiMg==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -3520,7 +3520,7 @@ packages:
       chai: 4.3.7
       debug: 4.3.4
       happy-dom: 8.1.5
-      jsdom: 21.0.0
+      jsdom: 21.1.0
       local-pkg: 0.4.2
       picocolors: 1.0.0
       source-map: 0.6.1
