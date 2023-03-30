@@ -29,7 +29,7 @@
     "happy-dom": "^8.9.0",
     "jsdom": "^21.1.1",
     "rollup-plugin-visualizer": "^5.9.0",
-    "typescript": "^5.0.2",
+    "typescript": "^5.0.3",
     "vite": "^4.2.1",
     "vite-plugin-css-injected-by-js": "^3.1.0",
     "vite-plugin-svgr": "^2.4.0",
