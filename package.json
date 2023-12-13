@@ -13,7 +13,7 @@
   "dependencies": {
     "@orchy-mfe/spa-adapter": "^0.1.1",
     "preact": "^10.19.3",
-    "react-router-dom": "^6.20.1",
+    "react-router-dom": "^6.21.0",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
