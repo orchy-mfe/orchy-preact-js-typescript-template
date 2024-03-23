@@ -24,7 +24,7 @@ devDependencies:
     version: 0.3.0
   '@preact/preset-vite':
     specifier: ^2.8.2
-    version: 2.8.2(@babel/core@7.23.2)(preact@10.20.1)(vite@5.2.3)
+    version: 2.8.2(@babel/core@7.23.2)(preact@10.20.1)(vite@5.2.4)
   '@testing-library/preact':
     specifier: ^3.2.3
     version: 3.2.3(preact@10.20.1)
@@ -59,14 +59,14 @@ devDependencies:
     specifier: ^5.4.3
     version: 5.4.3
   vite:
-    specifier: ^5.2.3
-    version: 5.2.3
+    specifier: ^5.2.4
+    version: 5.2.4
   vite-plugin-css-injected-by-js:
     specifier: ^3.5.0
-    version: 3.5.0(vite@5.2.3)
+    version: 3.5.0(vite@5.2.4)
   vite-plugin-svgr:
     specifier: ^3.3.0
-    version: 3.3.0(vite@5.2.3)
+    version: 3.3.0(vite@5.2.4)
   vitest:
     specifier: ^1.4.0
     version: 1.4.0(happy-dom@14.3.1)(jsdom@24.0.0)
@@ -889,7 +889,7 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@preact/preset-vite@2.8.2(@babel/core@7.23.2)(preact@10.20.1)(vite@5.2.3):
+  /@preact/preset-vite@2.8.2(@babel/core@7.23.2)(preact@10.20.1)(vite@5.2.4):
     resolution: {integrity: sha512-m3tl+M8IO8jgiHnk+7LSTFl8axdPXloewi7iGVLdmCwf34XOzEUur0bZVewW4DUbUipFjTS2CXu27+5f/oexBA==}
     peerDependencies:
       '@babel/core': 7.x
@@ -898,7 +898,7 @@ packages:
       '@babel/core': 7.23.2
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.2)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.23.2)
-      '@prefresh/vite': 2.4.1(preact@10.20.1)(vite@5.2.3)
+      '@prefresh/vite': 2.4.1(preact@10.20.1)(vite@5.2.4)
       '@rollup/pluginutils': 4.2.1
       babel-plugin-transform-hook-names: 1.0.2(@babel/core@7.23.2)
       debug: 4.3.4
@@ -908,7 +908,7 @@ packages:
       resolve: 1.22.8
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
-      vite: 5.2.3
+      vite: 5.2.4
     transitivePeerDependencies:
       - preact
       - supports-color
@@ -930,7 +930,7 @@ packages:
     resolution: {integrity: sha512-KtC/fZw+oqtwOLUFM9UtiitB0JsVX0zLKNyRTA332sqREqSALIIQQxdUCS1P3xR/jT1e2e8/5rwH6gdcMLEmsQ==}
     dev: true
 
-  /@prefresh/vite@2.4.1(preact@10.20.1)(vite@5.2.3):
+  /@prefresh/vite@2.4.1(preact@10.20.1)(vite@5.2.4):
     resolution: {integrity: sha512-vthWmEqu8TZFeyrBNc9YE5SiC3DVSzPgsOCp/WQ7FqdHpOIJi7Z8XvCK06rBPOtG4914S52MjG9Ls22eVAiuqQ==}
     peerDependencies:
       preact: ^10.4.0
@@ -942,7 +942,7 @@ packages:
       '@prefresh/utils': 1.2.0
       '@rollup/pluginutils': 4.2.1
       preact: 10.20.1
-      vite: 5.2.3
+      vite: 5.2.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4043,7 +4043,7 @@ packages:
       debug: 4.3.4
       pathe: 1.1.1
       picocolors: 1.0.0
-      vite: 5.2.3
+      vite: 5.2.4
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -4055,15 +4055,15 @@ packages:
       - terser
     dev: true
 
-  /vite-plugin-css-injected-by-js@3.5.0(vite@5.2.3):
+  /vite-plugin-css-injected-by-js@3.5.0(vite@5.2.4):
     resolution: {integrity: sha512-d0QaHH9kS93J25SwRqJNEfE29PSuQS5jn51y9N9i2Yoq0FRO7rjuTeLvjM5zwklZlRrIn6SUdtOEDKyHokgJZg==}
     peerDependencies:
       vite: '>2.0.0-0'
     dependencies:
-      vite: 5.2.3
+      vite: 5.2.4
     dev: true
 
-  /vite-plugin-svgr@3.3.0(vite@5.2.3):
+  /vite-plugin-svgr@3.3.0(vite@5.2.4):
     resolution: {integrity: sha512-vWZMCcGNdPqgziYFKQ3Y95XP0d0YGp28+MM3Dp9cTa/px5CKcHHrIoPl2Jw81rgVm6/ZUNONzjXbZQZ7Kw66og==}
     peerDependencies:
       vite: ^2.6.0 || 3 || 4
@@ -4071,14 +4071,14 @@ packages:
       '@rollup/pluginutils': 5.0.4
       '@svgr/core': 8.1.0
       '@svgr/plugin-jsx': 8.1.0(@svgr/core@8.1.0)
-      vite: 5.2.3
+      vite: 5.2.4
     transitivePeerDependencies:
       - rollup
       - supports-color
     dev: true
 
-  /vite@5.2.3:
-    resolution: {integrity: sha512-+i1oagbvkVIhEy9TnEV+fgXsng13nZM90JQbrcPrf6DvW2mXARlz+DK7DLiDP+qeKoD1FCVx/1SpFL1CLq9Mhw==}
+  /vite@5.2.4:
+    resolution: {integrity: sha512-vjFghvHWidBTinu5TCymJk/lRHlR5ljqB83yugr0HA1xspUPdOZHqbqDLnZ8f9/jINrtFHTCYYyIUi+o+Q5iyg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4156,7 +4156,7 @@ packages:
       strip-literal: 2.0.0
       tinybench: 2.5.1
       tinypool: 0.8.2
-      vite: 5.2.3
+      vite: 5.2.4
       vite-node: 1.4.0
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
