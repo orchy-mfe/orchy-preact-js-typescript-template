@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^0.3.0
     version: 0.3.0
   '@preact/preset-vite':
-    specifier: ^2.8.2
-    version: 2.8.2(@babel/core@7.23.2)(preact@10.20.2)(vite@5.2.8)
+    specifier: ^2.9.1
+    version: 2.9.1(@babel/core@7.23.2)(preact@10.20.2)(vite@5.2.8)
   '@testing-library/preact':
     specifier: ^3.2.3
     version: 3.2.3(preact@10.20.2)
@@ -90,13 +90,6 @@ packages:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/highlight': 7.18.6
-    dev: true
-
-  /@babel/code-frame@7.21.4:
-    resolution: {integrity: sha512-LYvhNKfwWSPpocw8GI7gpK2nq3HSDuEPC/uSYaALSJu9xjsalaaYFOq0Pwt5KmVqwEbZlDu81aLXwBOmD/Fv9g==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
       '@babel/highlight': 7.22.20
     dev: true
 
@@ -118,7 +111,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@ampproject/remapping': 2.2.0
-      '@babel/code-frame': 7.21.4
+      '@babel/code-frame': 7.22.13
       '@babel/generator': 7.21.5
       '@babel/helper-compilation-targets': 7.21.5(@babel/core@7.18.13)
       '@babel/helper-module-transforms': 7.21.5
@@ -341,15 +334,6 @@ packages:
       '@babel/types': 7.23.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/highlight@7.18.6:
-    resolution: {integrity: sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.22.20
-      chalk: 2.4.2
-      js-tokens: 4.0.0
     dev: true
 
   /@babel/highlight@7.22.20:
@@ -894,12 +878,13 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /@preact/preset-vite@2.8.2(@babel/core@7.23.2)(preact@10.20.2)(vite@5.2.8):
-    resolution: {integrity: sha512-m3tl+M8IO8jgiHnk+7LSTFl8axdPXloewi7iGVLdmCwf34XOzEUur0bZVewW4DUbUipFjTS2CXu27+5f/oexBA==}
+  /@preact/preset-vite@2.9.1(@babel/core@7.23.2)(preact@10.20.2)(vite@5.2.8):
+    resolution: {integrity: sha512-JecWzrOx7ogFhklSMhY+aH/24pajL0Vx+beEgau3WDMUUAo32cpUo/UqerPhLOyhCKXlxK9a3cRoa8g68ZAp5g==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x || 3.x || 4.x || 5.x
     dependencies:
+      '@babel/code-frame': 7.22.13
       '@babel/core': 7.23.2
       '@babel/plugin-transform-react-jsx': 7.22.15(@babel/core@7.23.2)
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.23.2)
@@ -910,7 +895,6 @@ packages:
       kolorist: 1.8.0
       magic-string: 0.30.5
       node-html-parser: 6.1.12
-      resolve: 1.22.8
       source-map: 0.7.4
       stack-trace: 1.0.0-pre2
       vite: 5.2.8
@@ -3573,15 +3557,6 @@ packages:
   /resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
-    dev: true
-
-  /resolve@1.22.8:
-    resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.13.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
   /resolve@2.0.0-next.4:
